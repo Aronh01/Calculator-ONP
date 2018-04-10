@@ -34,7 +34,7 @@ public class ReversPolishNotation {
 			else if(equation.charAt(i)==' ');
 		}
 		if(stack.size()==0)
-			return "b³¹d";
+			return "blad";
 		else
 			return stack.pop();
 	}
